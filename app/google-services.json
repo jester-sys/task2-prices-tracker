@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262055412317",
+    "project_id": "prices-tracker-c7883",
+    "storage_bucket": "prices-tracker-c7883.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262055412317:android:40ccd79e455821434903b4",
+        "android_client_info": {
+          "package_name": "com.jaixlabs.pricestracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFuiZFwojnVRuDXCHVniqj39zwaGV55yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
