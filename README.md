@@ -131,6 +131,7 @@ new MaterialAlertDialogBuilder(context)
     .setNegativeButton("No", null)
     .show();
 ```
+
 🎨 UI Previews
 🌙 Dark Theme
 
