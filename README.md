@@ -137,12 +137,8 @@ new MaterialAlertDialogBuilder(context)
 🎨 UI Previews
 🌙 Dark Theme
 
-<img src="https://github.com/user-attachments/assets/c4d468d6-88fa-4974-96cd-fe78c0e106aa" width="100"/> <img src="https://github.com/user-attachments/assets/c628dc53-f72c-4c53-9e8c-f59c24e4ec6f" width="100"/> <img src="https://github.com/user-attachments/assets/1a4646f7-8b75-4602-b68e-3813aba5c5c5" width="100"/> <img src="https://github.com/user-attachments/assets/ab0b64c9-b015-498f-9e13-c397e1b53e7d" width="100"/> <img src="https://github.com/user-attachments/assets/9b4088bc-0c62-4f9c-94b9-61c6196aabaa" width="100"/> <img src="https://github.com/user-attachments/assets/a3e08e9f-8699-4530-9a86-9b2bc8cff51c" width="100"/> <img src="https://github.com/user-attachments/assets/09c6812b-e697-4fc6-86c4-4edbe834c8dc" width="100"/>
+<img src="https://github.com/user-attachments/assets/c4d468d6-88fa-4974-96cd-fe78c0e106aa" width="100"/> <img src="https://github.com/user-attachments/assets/bdc2e206-4b5a-4b9c-93de-ae0e995df2d5" width="100"/> <img src="https://github.com/user-attachments/assets/9d96966c-6280-436e-a5f1-73d5214ff779" width="100"/> <img src="https://github.com/user-attachments/assets/7ce46f71-d3ac-4e2c-bed0-a54eaec96716" width="100"/> <img src="https://github.com/user-attachments/assets/f1fc478a-7ce4-4088-9b7c-1811f99c6d90" width="100"/> <img src="https://github.com/user-attachments/assets/cdbb45e1-4886-419d-99b2-229583af8138" width="100"/> <img src="https://github.com/user-attachments/assets/2099bc8a-397a-46fb-9a96-a6442a2c1a09" width="100"/>  <img src="https://github.com/user-attachments/assets/51f3f532-cb0f-453a-920f-d55c5ba589d2" width="100"/> <img 
 
-
-
-
-☀️ Light Theme
 
 <img src="https://github.com/user-attachments/assets/08fc17d7-03ce-4241-8eef-d672ba2bb0f2" width="100"/> <img src="https://github.com/user-attachments/assets/8ce05ed2-6c15-40af-be7c-1c915a24e340" width="100"/> <img src="https://github.com/user-attachments/assets/3caaa725-5223-4776-aacd-5cd3f712d07a" width="100"/> <img src="https://github.com/user-attachments/assets/6f217a21-090c-4816-b4fd-2be54e1d4a23" width="100"/> <img src="https://github.com/user-attachments/assets/2c01ac91-1689-42fc-962c-52cd44af795f" width="100"/> <img src="https://github.com/user-attachments/assets/a633cfc6-3ad0-48a6-9599-ac33d5d4ec28" width="100"/> <img src="https://github.com/user-attachments/assets/52c63100-a085-47c4-b917-3db7e3f2ee64" width="100"/>
 🧰 Tech Stack
