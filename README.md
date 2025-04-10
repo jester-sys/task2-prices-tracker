@@ -1,5 +1,14 @@
-Android App – Real-Time Prices Tracker 
-This Android application demonstrates a real-time price tracking system with secure login, biometric authentication, and live data visualization. The app is built in Java using MVVM architecture, Retrofit for networking, and integrates advanced Android features like EncryptedSharedPreferences, Room DB, and Firebase Cloud Messaging (FCM) for push notifications.
+ Android App – Real-Time Prices Tracker
+
+This Android application is a complete solution for tracking live prices with secure access and dynamic data updates. It is designed using Java and follows the MVVM (Model-View-ViewModel) architectural pattern, ensuring clean separation of concerns and easy maintainability.
+
+The app authenticates users securely using a login API with token-based authentication. Once logged in, the token is safely stored using EncryptedSharedPreferences to prevent unauthorized access. For enhanced security on subsequent launches, the app implements Biometric Authentication (Fingerprint) using the BiometricPrompt API, providing a seamless yet secure login experience.
+
+Live price data is fetched from a remote server using Retrofit, and displayed in a RecyclerView that updates in real time. The app also visualizes historical and live price trends using MPAndroidChart, giving users an intuitive understanding of market behavior.
+
+To ensure users are instantly notified of price changes, Firebase Cloud Messaging (FCM) is integrated for sending push notifications. The app also supports Dark Mode and Offline Mode using Room Database, so users can access previous data even without internet connectivity. Additionally, search and filter functionality allows users to find specific price items quickly.
+
+Overall, this project is an ideal reference for developers looking to implement secure login flows, real-time data handling, biometric authentication, and modern Android UI/UX best practices in financial, crypto, or e-commerce related apps.
 
     ✅ Note: App name and icon are AI-generated placeholders for demo purposes.
 
