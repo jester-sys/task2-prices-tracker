@@ -5,27 +5,27 @@ This Android application demonstrates a real-time price tracking system with sec
 
 ✅ Features Implemented
 
-    🔐 Login API Integration (POST https://api.prepstripe.com/login)
+     Login API Integration (POST https://api.prepstripe.com/login)
 
-    📊 Real-Time Price API Integration (GET https://api.prepstripe.com/prices)
+     Real-Time Price API Integration (GET https://api.prepstripe.com/prices)
 
-    🧬 Biometric Authentication for Secure Subsequent Access
+     Biometric Authentication for Secure Subsequent Access
 
-    🔑 EncryptedSharedPreferences for Secure Token Storage
+     EncryptedSharedPreferences for Secure Token Storage
 
-    🔔 Firebase Cloud Messaging (FCM) for Real-time Price Notifications
+     Firebase Cloud Messaging (FCM) for Real-time Price Notifications
 
-    📈 MPAndroidChart for Price Trend Graphs
+     MPAndroidChart for Price Trend Graphs
 
-    🔄 Live Price Updates in RecyclerView
+     Live Price Updates in RecyclerView
 
-    🚪 Logout Functionality with Token Clearance
+     Logout Functionality with Token Clearance
 
-    🌙 Dark Mode + Light Mode Support ✅
+     Dark Mode + Light Mode Support ✅
 
-    🔍 Search and Category Filtering via Spinner ✅
+     Search and Category Filtering via Spinner ✅
 
-    📶 Offline Mode using Room Database ✅
+     Offline Mode using Room Database ✅
 
 🌟 Bonus Features (Implemented)
 
@@ -50,9 +50,11 @@ This Android application demonstrates a real-time price tracking system with sec
     Prices
     GET https://api.prepstripe.com/prices
     Requires: Authorization: Bearer <token>
+    
 
-🔐 Biometric Authentication Code
+##  Biometric Authentication Code
 
+```java
 BiometricPrompt.PromptInfo promptInfo = new BiometricPrompt.PromptInfo.Builder()
     .setTitle("Biometric Login")
     .setSubtitle("Log in using your fingerprint")
@@ -74,9 +76,10 @@ BiometricPrompt biometricPrompt = new BiometricPrompt(
 );
 
 biometricPrompt.authenticate(promptInfo);
+```
 
-🔐 EncryptedSharedPreferences Code
-
+EncryptedSharedPreferences Code
+```
 SharedPreferences sharedPreferences = EncryptedSharedPreferences.create(
     "secure_prefs",
     MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC),
@@ -91,8 +94,23 @@ sharedPreferences.edit().putString("auth_token", token).apply();
 // Retrieve token
 String token = sharedPreferences.getString("auth_token", null);
 
-🚪 Logout Functionality
+SharedPreferences sharedPreferences = EncryptedSharedPreferences.create(
+    "secure_prefs",
+    MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC),
+    context,
+    EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+    EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+);
 
+// Store token
+sharedPreferences.edit().putString("auth_token", token).apply();
+
+// Retrieve token
+String token = sharedPreferences.getString("auth_token", null);
+```
+
+Logout Functionality
+```
 new MaterialAlertDialogBuilder(context)
     .setTitle("Logout")
     .setMessage("Are you sure you want to logout?")
@@ -103,7 +121,7 @@ new MaterialAlertDialogBuilder(context)
     })
     .setNegativeButton("No", null)
     .show();
-
+```
 🎨 UI Previews
 🌙 Dark Theme
 
@@ -132,6 +150,7 @@ new MaterialAlertDialogBuilder(context)
     Material Design Components
 
 📂 Folder Structure
+```
 
 ├── ui/
 │   ├── LoginFragment.java
@@ -147,8 +166,9 @@ new MaterialAlertDialogBuilder(context)
 │   └── ApiService.java
 └── utils/
     └── AuthManager.java
+```
 
-📦 APK & Build Instructions
+ APK & Build Instructions
 
     Clone the repo
 
