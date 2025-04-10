@@ -135,6 +135,7 @@ new MaterialAlertDialogBuilder(context)
 ```
 
 🎨 UI Previews
+
 🌙 Dark Theme
 
 <img src="https://github.com/user-attachments/assets/c4d468d6-88fa-4974-96cd-fe78c0e106aa" width="100"/> <img src="https://github.com/user-attachments/assets/bdc2e206-4b5a-4b9c-93de-ae0e995df2d5" width="100"/> 
