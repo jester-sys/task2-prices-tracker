@@ -87,8 +87,9 @@ BiometricPrompt biometricPrompt = new BiometricPrompt(
 biometricPrompt.authenticate(promptInfo);
 ```
 
-EncryptedSharedPreferences Code
-```
+##EncryptedSharedPreferences Code
+
+```java
 SharedPreferences sharedPreferences = EncryptedSharedPreferences.create(
     "secure_prefs",
     MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC),
